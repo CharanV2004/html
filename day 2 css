@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Text Elements Demo (Minimal CSS)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    /* minimal, no CSS variables */
+    body { font-family: Arial, Helvetica, sans-serif; margin: 16px; line-height: 1.5; }
+    section { border: 1px solid #ccc; padding: 12px; margin-bottom: 16px; }
+    h2 { color: #333; margin-top: 0; }
+    code, kbd, samp { background: #f1f1f1; padding: 2px 6px; border-radius: 4px; }
+    pre { background: #f8f8f8; padding: 10px; overflow: auto; }
+    blockquote { border-left: 4px solid #888; padding-left: 10px; color: #444; margin: 0; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 12px 0; }
+  </style>
+</head>
+<body>
+
+  <section>
+    <h2>Headings</h2>
+    <h1>H1 Heading</h1>
+    <h2>H2 Heading</h2>
+    <h3>H3 Heading</h3>
+    <h4>H4 Heading</h4>
+    <h5>H5 Heading</h5>
+    <h6>H6 Heading</h6>
+  </section>
+
+  <section>
+    <h2>Basic Inline Text</h2>
+    <p>
+      This is normal text with <b>bold (b)</b>, <strong>strong</strong>,
+      <i>italic (i)</i>, <em>emphasis (em)</em>, <u>underline</u>,
+      <mark>highlight</mark>, <small>small</small>, <del>deleted</del>,
+      <ins>inserted</ins>, H<sub>2</sub>O, and E = mc<sup>2</sup>.
+    </p>
+    <p>
+      Inline code: <code>&lt;span&gt;Hello&lt;/span&gt;</code>,
+      variable: <var>x</var>, sample output: <samp>42</samp>,
+      keyboard: <kbd>Ctrl</kbd> + <kbd>C</kbd>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Quotations & Semantics</h2>
+    <p>
+      Short inline quote: <q cite="https://example.com">Stay curious.</q>
+      Cited work: <cite>Example Journal</cite>.
+    </p>
+    <blockquote cite="https://example.com">
+      Blockquote: “Design is the silent ambassador of your brand.”
+    </blockquote>
+    <p>
+      Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>,
+      definition: <dfn>Accessibility</dfn> means inclusive design.
+    </p>
+  </section>
+
+  <section>
+    <h2>Preformatted & Code Block</h2>
+    <pre><code>// spacing preserved
+function hello(name) {
+  return "Hi, " + name + "!";
+}
+</code></pre>
+  </section>
+
+  <section>
+    <h2>Lists & Horizontal Rule</h2>
+    <h3>Unordered</h3>
+    <ul>
+      <li>Item A</li>
+      <li>Item B</li>
+      <li>Item C</li>
+    </ul>
+
+    <h3>Ordered</h3>
+    <ol>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ol>
+
+    <h3>Definition List</h3>
+    <dl>
+      <dt>API</dt><dd>Application Programming Interface</dd>
+      <dt>UX</dt><dd>User Experience</dd>
+    </dl>
+
+    <hr />
+
+    <p>Line break example: First line<br>Second line</p>
+  </section>
+
+  <section>
+    <h2>Time, Address, Link, Span</h2>
+    <p>Published on <time datetime="2025-08-13">Aug 13, 2025</time>.</p>
+    <p>Visit <a href="#" title="Example link">this link</a> for more.</p>
+    <p>Inline <span style="background:#ffe9a8;">span with simple style</span>.</p>
+    <address>
+      Web Co.<br>
+      123 Markup Street<br>
+      Net City, WW 00000
+    </address>
+  </section>
+
+</body>
+</html>
