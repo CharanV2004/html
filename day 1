@@ -5,15 +5,7 @@
   <title>Text Elements Demo (Minimal CSS)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    /* minimal, no CSS variables */
-    body { font-family: Arial, Helvetica, sans-serif; margin: 16px; line-height: 1.5; }
-    section { border: 1px solid #ccc; padding: 12px; margin-bottom: 16px; }
-    h2 { color: #333; margin-top: 0; }
-    code, kbd, samp { background: #f1f1f1; padding: 2px 6px; border-radius: 4px; }
-    pre { background: #f8f8f8; padding: 10px; overflow: auto; }
-    blockquote { border-left: 4px solid #888; padding-left: 10px; color: #444; margin: 0; }
-    hr { border: none; border-top: 1px solid #ddd; margin: 12px 0; }
-  </style>
+
 </head>
 <body>
 
