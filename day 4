@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Page Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+    nav { background: #333; padding: 10px 20px; position: fixed; top: 0; width: 100%; z-index: 10; }
+    nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; }
+    nav li { margin: 0 15px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 80px 20px; min-height: 100vh; }
+    .hero { background: #555; color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+    .hero h1 { font-size: 48px; margin: 0; }
+    .hero p { max-width: 600px; }
+    .features, .about, .services, .contact { background: #f4f4f4; }
+    h2 { text-align: center; margin-top: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 1000px; margin: auto; }
+    .card { background: white; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+    form { max-width: 500px; margin: auto; display: grid; gap: 10px; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; }
+    button { padding: 10px; background: #333; color: white; border: none; cursor: pointer; }
+    button:hover { background: #555; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="hero" class="hero">
+  <h1>My One Page Site</h1>
+  <p>Clean, minimal, and responsive one-page layout built with HTML and CSS only.</p>
+</section>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p style="max-width:800px; margin:auto;">We are a passionate team dedicated to creating simple and beautiful web experiences. Our focus is on delivering high-quality work with minimal complexity and maximum impact.</p>
+</section>
+
+<section id="features" class="features">
+  <h2>Features</h2>
+  <div class="grid">
+    <div class="card"><h3>Responsive</h3><p>Looks great on all devices.</p></div>
+    <div class="card"><h3>Fast</h3><p>Optimized for quick loading times.</p></div>
+    <div class="card"><h3>Clean</h3><p>Simple, minimal design approach.</p></div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Web Design</h3><p>Custom designs to match your vision.</p></div>
+    <div class="card"><h3>Development</h3><p>Clean, maintainable code for long-term success.</p></div>
+    <div class="card"><h3>SEO</h3><p>Improve visibility with search engine optimization.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 My One Page Site. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
